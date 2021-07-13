@@ -9,9 +9,6 @@
     margin: 0;
     padding: 0;
 }
-.container{
-
-}
 a{
     text-decoration: none;
 }
@@ -30,6 +27,7 @@ a{
 header{
     background: #2D25A0;
     height: 677px;
+    margin-bottom: 70px;
 }
 
 /* nav bar part start here */
@@ -66,5 +64,39 @@ header{
     height: 438px;
     margin-left: 20px;
 }
-
 /* banner part end here */
+
+
+/* player part start here */
+.player-wrapper{
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.player{
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+.player-img img{
+    width: 300px;
+    height: 256px;
+}
+.player-text{
+}
+.player-text h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
+.player-text p{
+    color: #6C6C6C;
+}
+
+/* player part end here */
