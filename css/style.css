@@ -1,3 +1,70 @@
-body{
-    background: #2D25A0;
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/* common item start */
+
+*, body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+.container{
+
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* common item end */
+
+
+/* header part start here */
+header{
+    background: #2D25A0;
+    height: 677px;
+}
+
+/* nav bar part start here */
+.nav-bar{
+    height: 44px;
+    margin-bottom: 49px;
+}
+
+/* nav bar part end here */
+
+/* banner part start here */
+.banner-wrapper{
+    width: 1161px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-text{
+    margin-top: 55px;
+}
+.banner-text h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 27px;
+}
+
+.banner-img img{
+    width: 556px;
+    height: 438px;
+    margin-left: 20px;
+}
+
+/* banner part end here */
