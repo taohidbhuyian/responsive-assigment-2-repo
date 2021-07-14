@@ -102,8 +102,6 @@ header{
     width: 300px;
     height: 256px;
 }
-.player-text{
-}
 .player-text h3{
     font-size: 28px;
     font-weight: 700;
@@ -115,9 +113,43 @@ header{
 
 /* player part end here */
 
+/* country part start here */
+.country-wrapper{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.country-header{
+    text-align: center;
+}
+.country-header h2{
+    font-size: 36px;
+    color: rgb(39, 39, 39);
+}
+.country-header p{
+    color: #666;
+}
+.country{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 30px;
+}
+.country-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* country part end here */
+
 /* category part start here */
-.category-wrapper {
+.bg-color{
     background: #2D25A0;
+}
+.category-wrapper {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 40px;
@@ -143,12 +175,7 @@ header{
 .category-text p a{
     color: #eee;
     font-size: 18px;
-    
 }
-
-
-
-
 /* category part end here */
 
 
