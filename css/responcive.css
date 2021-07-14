@@ -94,7 +94,7 @@
 tab and other sami large dvaice
 ===============================*/
 
-@media only screen and (min-width: 689px) and (max-width: 991px){
+@media only screen and (min-width: 689px) and(max-width: 991px){
     .banner-wrapper {
         width: 100%;
     }
@@ -108,5 +108,9 @@ tab and other sami large dvaice
     }
     .category-wrapper {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-img img {
+        width: 275px;
+        height: 63px;
     }
 }
