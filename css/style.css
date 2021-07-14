@@ -115,6 +115,42 @@ header{
 
 /* player part end here */
 
+    /* category part start here */
+.category-wrapper {
+    background: #2D25A0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 40px;
+    margin-bottom: 50px;
+
+}
+.category{
+    text-align: center;
+}
+.category-text {
+    text-align: left;
+    margin-left: 30px;
+}
+.category-text h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.category-text p{
+    margin-bottom: 5px;
+}
+.category-text p a{
+    color: #eee;
+    font-size: 18px;
+    
+}
+
+
+
+
+    /* category part end here */
+
 
 /* footer part start here */
 footer{
@@ -134,7 +170,7 @@ footer{
     margin-right: 14px;
     background: #ddd;
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 50%;
     color: #777;
 }
 .footer-text{

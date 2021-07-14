@@ -4,6 +4,10 @@
         /* width: 360px; */
         height: 692px;
     }
+    .nav-bar {
+        height: 5px;
+        margin-bottom: 49px;
+    }
     .banner-wrapper {
         width: 100%;
     }
@@ -54,6 +58,19 @@
 
     /* player part end here */
 
+
+    /* category part start here */
+    .category-wrapper{
+        background: #181733;
+        width: 100%;
+        height: 500px;
+        border: 5px solid #f9e506;
+    }
+
+
+
+
+    /* category part end here */
 
     /* footer part start here */
 
