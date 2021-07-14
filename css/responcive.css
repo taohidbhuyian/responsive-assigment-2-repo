@@ -1,0 +1,69 @@
+/* movile dvaice */
+@media only screen and (max-width: 688px) {
+    header {
+        /* width: 360px; */
+        height: 692px;
+    }
+    .banner-wrapper {
+        width: 100%;
+    }
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-text {
+        margin-top: 0;
+        margin-bottom: 40px;
+        margin-left: 15px;
+    }
+    .banner-text h1 {
+        font-size: 36px;
+        line-height: 50px;
+        /* margin-bottom: 27px; */
+    }
+    .btn{
+        width: 168px;
+        height: 44px;
+    }
+    .btn:hover{
+        box-shadow: inset 168px 0 0 #f9e506;
+    }
+    .banner-img img {
+        width: 329px;
+        height: 269px;
+        margin-left: 15px;
+    }
+
+    /* banner part end here */
+
+
+    /* player part start here */
+    
+    .player-wrapper {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .all-player {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+    .player {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* player part end here */
+
+
+    /* footer part start here */
+
+    .footer-img img {
+        width: 275px;
+        height: 63px;
+    }
+    .icon {
+        font-size: 18px;
+    }
+    
+    /* footer part end here */
+}
